@@ -2,7 +2,7 @@
 
 This project demonstrates feature engineering techniques using the UCI Credit Card Default dataset. You'll learn how to create, test, and evaluate engineered features to improve machine learning model performance.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Unit4-Practice/
@@ -13,21 +13,7 @@ Unit4-Practice/
 └── README.md                        # This file
 ```
 
-## 🎯 Learning Objectives
-
-1. **Understand Feature Engineering**: Learn different types of feature engineering techniques
-   - Division (Ratios): Utilization rates, payment rates
-   - Subtraction (Differences): Available credit, underpayment amounts
-   - Boolean Features: Binary flags for specific conditions
-   - Temporal Features: Payment history patterns over time
-
-2. **Avoid Common Pitfalls**: Handle infinity values and edge cases in division operations
-
-3. **Measure Impact**: Compare baseline vs. engineered models to determine if features add value
-
-4. **Evaluate Significance**: Learn when improvements are meaningful vs. just noise
-
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -42,7 +28,7 @@ The UCI Credit Card Default dataset contains:
 - **24 features** including credit limit, age, payment history, bill amounts, and payment amounts
 - **Target variable**: Whether the customer defaulted on their payment next month
 
-## 📓 How to Run
+## How to Run
 
 ### Part 1: Feature Engineering Tutorial (`feature_engineering.ipynb`)
 
@@ -88,7 +74,7 @@ This notebook demonstrates how to properly test if engineered features improve y
    - **Precision improvement** → Fewer false alarms
    - **Feature importance** → Which engineered features matter most
 
-## 🔑 Key Concepts
+## Key Concepts
 
 ### Handling Infinity Values
 
